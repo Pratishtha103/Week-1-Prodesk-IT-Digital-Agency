@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0.2em;
+}
+body{
+    background-color: white;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width:4em;
+}
+.logo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    /* border: 2px solid black; */
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3em;
+    padding:2em;
+    text-align: center;
+}
+.hero h1{
+    font-size:3em;
+}
+.hero button{
+    width:12em;
+    padding: 1em;
+}
