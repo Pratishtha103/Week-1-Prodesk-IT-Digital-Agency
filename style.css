@@ -12,13 +12,12 @@ body{
     color: white;
 }
 .navbar{
+    position: sticky;
+    top:0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1em;
-}
-.navbar img{
-    width:4em;
 }
 .logo-name{
     display: flex;
@@ -29,8 +28,13 @@ body{
     display: flex;
     gap:2em;
 }
-.navlinks a{
+.nav-colour{
     text-decoration: none;
+    color:black;
+}
+.dark-theme-navlinks{
+    text-decoration: none;
+    color: white;
 }
 .navlinks a:hover{
     text-decoration: underline;
@@ -74,6 +78,9 @@ body{
     border:0.12em solid gray;
     border-radius: 4%;
 }
+.services div:hover{
+    transform: translateY(-0.4em);
+}
 .services div button{
     position: absolute;
     bottom: 1em;
@@ -82,16 +89,16 @@ body{
 footer a{
     text-decoration: none;
 }
-footer a svg path{
-    color: white;
-}
 footer{
     text-align: center;
     border-top: 0.12em solid gray;
+    background-color: rgb(120, 120, 120);
     padding: 2em;
 }
 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 @media (max-width:480px){
     .navbar{
