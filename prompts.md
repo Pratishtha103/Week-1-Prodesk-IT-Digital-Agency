@@ -15,3 +15,4 @@ function toggleDark(){
     button.innerHTML='Dark Mode'
     }
 } "
+"how to implement tailwind css in a simple index.html document"
