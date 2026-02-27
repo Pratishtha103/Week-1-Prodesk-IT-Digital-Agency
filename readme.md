@@ -1,1 +1,1 @@
-Website Screeshot[screenshot.png]
+![Website Screeshot](screenshot.png)
